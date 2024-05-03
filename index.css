@@ -1,0 +1,328 @@
+@font-face {
+    font-family: "Gilroy";
+    src: local("Gilroy"), url(fonts/Gilroy-Bold.woff) format('woff');
+}
+
+*{
+    font-family: "Gilroy";
+}
+
+.ellipse1{
+    display: flex;
+    margin-bottom: -400px;
+    margin-left: 780px;
+}
+
+.ellipse2{
+    display: flex;
+    margin-bottom: -580px;
+    margin-left: auto;
+}
+
+body{
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+    background-color: #222222;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+header nav ul{
+    margin-right: 500px;
+    color: #F1F1F1;
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: #F1F1F1;
+}
+
+.btn{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 15px 35px 15px 35px;
+    background-color: #F1F1F1;
+    border-radius: 100px;
+}
+
+.descript1{
+    text-wrap: balance;
+    color: #F1F1F1;
+    width: 1100px;
+    height: 160px;
+    font-size: 80px;
+    margin-top: 110px;
+}
+
+.descript2{
+    text-align:start;
+    word-break:keep-all;
+    text-wrap: balance;
+    width: 450px;
+    height: 144px;
+    font-size: 30px;
+    color: #FF4C0D;
+}
+
+.white_black{
+    margin-top: 40px;
+    font-size: 45px;
+    height: 70px;
+    width: 300px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.descript3{
+    margin-top: 30px;
+    width: 900px;
+    height: 144px;
+    font-size: 60px;
+    color: #F1F1F1;
+}
+
+.tricks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    color: #F1F1F1;
+}
+
+.trick1{
+    height: 300px;
+    width: 400px;
+
+    line-height: 25px;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+
+.trick2{
+
+    height: 300px;
+    width: 400px;
+
+    line-height: 25px;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+.trick3{
+    height: 300px;
+    width: 400px;
+
+    line-height: 25px;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+.hr1{
+    background-color: #F1F1F1;
+    width: 400px;
+    height: 2px;
+}
+
+.hr2{
+    background-color: #F1F1F1;
+    width: 400px;
+    height: 2px;
+}
+
+.hr3{
+    background-color: #F1F1F1;
+    width: 400px;
+    height: 2px;
+}
+
+
+.trick1:hover{
+    height: 300px;
+    width: 400px;
+    opacity: 1;
+}
+
+
+.trick2:hover{
+    height: 300px;
+    width: 400px;
+    opacity: 1;
+}
+
+.trick3:hover{
+    height: 300px;
+    width: 400px;
+    opacity: 1;
+}
+
+.logo_samokat{
+    overflow: hidden;
+    left: 630px;
+    position: absolute;
+    height: 1300px;
+    top: -418px;
+}
+
+.logo_obvodka{
+    overflow: hidden;
+    left: 1052px;
+    position: absolute;
+    top: 0px;
+}
+
+.main_photos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_1{
+    transform: scaleX(-1);
+    width: 980px;
+    height: 500px;
+    border-radius: 15px;
+    z-index: 999;
+}
+
+.main_2{
+    transform: scaleX(-1);
+    margin-left: 50px;
+    width: 760px;
+    height: 360px;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+
+.path{
+    transform: scale(1.2);
+    display: flex;
+    position: relative;
+    margin-top: -350px;
+    margin-left: 300px;
+    margin-bottom: 34px;
+    z-index: 2;
+}
+
+.loyal_photo{
+    display: flex;
+    width: 100vw;
+}
+
+.loyal div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.loyal_info1 {
+    display: flex;
+    position: relative;
+    margin-bottom: -30px;
+}
+  
+.loyal_info2 {
+    position: absolute;
+    top: 300px;
+    left: 140px;
+
+    color: #F1F1F1;
+}
+
+.info1{
+    font-size: 70px;
+    width: 700px;
+}
+
+.info2{
+    font-size: 25px;
+    width: 540px;
+}
+
+.logo_loyal{
+    margin-top: -150px;
+    margin-bottom: 150px;
+}
+
+.info3{
+    color: #FF4C0D;
+    margin-bottom: -100px;
+    width: 780px;
+    font-size: 45px;
+}
+
+.path2{
+    display: flex;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: -1600px;
+}
+
+.Ellipse{
+    display: flex;
+    opacity: 0.6;
+    margin-left: auto;
+}
+
+.info4{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.info_samokat2{
+    
+    width: 500px;
+    height: 600px;
+    background: #0E0E0E;
+    border-radius: 15px;
+
+}
+
+.info_samokat3{
+    transform: scale(0.2);
+    width: 500px;
+
+}
+
+.info_samokat_text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #F1F1F1;
+    
+}
+
+#first{
+    font-weight: 0;
+    line-height: 24px;
+    font-size: 22px;
+}
+
+#second{
+    line-height: 24px;
+}
